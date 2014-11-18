@@ -1,5 +1,5 @@
 (defproject kollider "0.1.0-SNAPSHOT"
-  :description "once a day network"
+  :description "anonymous code board"
   :url "N/A"
   :license {:name "GPLv3"
             :url "http://www.gnu.org/licenses/gpl-3.0.html"}
