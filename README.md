@@ -14,4 +14,5 @@
 - Routing: [Compojure](https://github.com/weavejester/compojure)
 - Server: [HTTP kit](https://github.com/http-kit/http-kit)
 - Templating: [Selmer](https://github.com/yogthos/Selmer)
-- Database: [Monger](https://github.com/michaelklishin/monger)
+- Database: [Monger](https://github.com/michaelklishin/monger) (considering
+  Postgres and [Korma](https://github.com/korma/Korma) instead
