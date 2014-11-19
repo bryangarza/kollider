@@ -8,3 +8,10 @@
 ###setup
 - clone this repo.
 - to build: `lein cljsbuild auto`
+
+###stack
+- Front-end: [Reagent](https://github.com/reagent-project/reagent)
+- Routing: [Compojure](https://github.com/weavejester/compojure)
+- Server: [HTTP kit](https://github.com/http-kit/http-kit)
+- Templating: [Selmer](https://github.com/yogthos/Selmer)
+- Database: [Monger](https://github.com/michaelklishin/monger)
