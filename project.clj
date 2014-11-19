@@ -5,7 +5,9 @@
             :url "http://www.gnu.org/licenses/gpl-3.0.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2371"]
-                 [reagent "0.4.3"]]
+                 [reagent "0.4.3"]
+                 [com.novemberain/monger "2.0.0"]
+                 [cljs-ajax "0.3.3"]]
   :plugins [[lein-cljsbuild "1.0.3"]]
   :cljsbuild {:builds [{:source-paths ["src-cljs"]
                         :compiler {:output-to "app.js"
