@@ -8,11 +8,4 @@
 ###setup
 - clone this repo.
 - to build: `lein cljsbuild auto`
-
-###stack
-- Front-end: [Reagent](https://github.com/reagent-project/reagent)
-- Routing: [Compojure](https://github.com/weavejester/compojure) +
-  [Secretary](https://github.com/gf3/secretary)
-- Server: [HTTP kit](https://github.com/http-kit/http-kit)
-- Templating: [Selmer](https://github.com/yogthos/Selmer)
-- Database: Postgres and [Korma](https://github.com/korma/Korma)
+- server: `lein ring server`
