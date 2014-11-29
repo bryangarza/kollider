@@ -19,3 +19,4 @@ pom.xml.asc
 *.#*
 blog.properties
 resources/public/js/*
+*.swp

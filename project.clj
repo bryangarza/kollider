@@ -10,6 +10,7 @@
                  [throttler "1.0.0"]
                  [environ "1.0.0"]
                  [selmer "0.7.3"]
+                 [com.novemberain/monger "2.0.0"]
                  [org.clojure/clojurescript "0.0-2371"]
                  [reagent "0.4.3"]
                  [cljs-ajax "0.3.3"]
