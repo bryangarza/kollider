@@ -1,4 +1,4 @@
-(defproject app "0.1.0-SNAPSHOT"
+(defproject kollider "0.1.0-SNAPSHOT"
   :description "anonymous code board"
   :url "https://github.com/bryangarza/kollider"
   :license {:name "GPLv3"
