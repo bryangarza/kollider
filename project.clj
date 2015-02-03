@@ -7,7 +7,8 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [compojure "1.3.1"]
                  [hiccup "1.0.5"]
-                 [ring/ring-defaults "0.1.3"]]
+                 [ring/ring-defaults "0.1.3"]
+                 [ring/ring-anti-forgery "1.0.0"]]
   :plugins [[lein-ring "0.9.1"]]
   :ring {:handler kollider.handler/app}
   :profiles
