@@ -8,8 +8,8 @@
         [ring.middleware.session]
         [ring.util.anti-forgery]))
 
-(def board-fp (atom [["Hello" "OMG" "yo"] ["fun" "asdfasdf" "asa"]]))
-(def board-brace (atom [["write less JS" "nothx" "ok"] ["IDK" "what is this" "asdf"] ["pointless" "yea"]]))
+(def board-fp (atom [["Post #1" "hello" "yo"] ["fun" "asdfasdf" "asa"]]))
+(def board-brace (atom [["write Clj" "nothx" "ok"] ["IDK" "what is this" "asdf"] ["pointless" "yea"]]))
 
 (defn as-ul [v]
   [:ul (map (fn [item] [:li (str item)]) v)])
