@@ -14,8 +14,10 @@
 (defn as-ul [v]
   [:ul (map (fn [item] [:li (str item)]) v)])
 
-(defn content-to-ul [c]
-  [:ul (map (fn [item] [:li (str (first item)) (as-ul (rest item))]) c)])
+; Passing in a second argument returns the entire nested structure
+(defn content-to-ul
+  ([c] [:ul (map (fn [item] [:li (str (first item))]) c)])
+  ([c outermost] [:ul (map (fn [item] [:li (str (first item)) (as-ul (rest item))]) c)]))
 
 (defn common [& body]
   (html5
@@ -38,7 +40,7 @@
    [:p [:ul
         [:li
          "Functional Programming"
-         (content-to-ul @board-fp)
+         (content-to-ul @board-fp true)
          (form-post "/fp")
          [:li "Curly brace langs" (content-to-ul @board-brace)]]]]))
 
