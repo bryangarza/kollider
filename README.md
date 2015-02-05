@@ -1,14 +1,14 @@
-# app
+# Kollider
 
-A Clojure library designed to ... well, that part is up to you.
+Anonymous code board, le '4chan for code'.
 
-## Usage
+## TODO
 
-FIXME
+- [ ] Replace Hiccup with Reagent
+- [ ] Use persistent DB
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 Bryan Garza
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the GPLv3 License
